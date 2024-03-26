@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8ea9db;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.instructions {
+    padding: 20px;
+}
+
+.instructions h2 {
+    margin-top: 0;
+}
+
+.instructions ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.instructions li {
+    margin-bottom: 20px;
+}
+
+.register-btn {
+    display: block;
+    width: 100%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #8ea9db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}

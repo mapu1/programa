@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Instrucciones de Uso</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="imagen1.png" alt="Logo" class="logo">
+        <h1>Instrucciones de Uso</h1>
+    </header>
+    <section class="instructions">
+        <h2>RESUMEN</h2>
+        <p>La herramienta permite hacer un control de inventario de productos en los diferentes almacenes de la empresa,
+            fábrica o establecimiento. El usuario realiza el registro de entradas y salidas de los productos, estos
+            datos se dirigen a una base de datos que actualiza automáticamente el inventario. De esta forma se conoce el
+            histórico de entradas y salidas así como la necesidad de solicitud de productos de acuerdo al stock mínimo.
+        </p>
+        <ol>
+            <li>
+                <h3>REGISTRO DE PRODUCTOS</h3>
+                <p>Pulsar botón "IR A INVENTARIO" diligenciar la tabla desde "CÓDIGO" hasta "STOCK MÍNIMO". Vuelva a
+                    repetir el proceso para registrar nuevos productos, la tabla va agregar filas de forma automática a
+                    medida que vaya llenando los espacios.</p>
+            </li>
+            <li>
+                <h3>REGISTRO DE ENTRADAS Y SALIDAS</h3>
+                <p>Pulsar botón "REGISTRAR DATOS", diligenciar los espacios requeridos sin tildes. Registrar entradas
+                    con signo positivo (Ej: 2) y salidas con signo negativo (Ej: -2). Después de diligenciar los
+                    espacios pulsar sobre el botón "REGISTRAR". Para registrar nuevos datos pulsar sobre el botón
+                    "LIMPIAR" y repetir el proceso mencionado anteriormente.</p>
+            </li>
+            <li>
+                <h3>CONSULTAR INVENTARIO ACTUAL</h3>
+                <p>Pulsar botón "IR A INVENTARIO", usar los botones de filtro de las tablas según lo que desee
+                    consultar. Esta hoja de inventario le va a permitir consultar la cantidad actual de acuerdo a las
+                    entradas y salidas de los productos registrados en la hoja de "REGISTRO DE ENTRADAS Y SALIDAS".</p>
+            </li>
+            <li>
+                <h3>CONSULTAR HISTÓRICO DE DATOS, REALIZAR CORRECCIONES O VERIFICAR ERRORES</h3>
+                <p>Pulsar botón "IR A HISTÓRICO" y modificar los valores deseados. La verificación de errores se puede
+                    hacer de dos formas: 1. Identificar celdas cuya esquina superior izquierda está marcada en rojo. 2.
+                    Pulsar desde la barra de menús de Excel "Fórmulas" y hacer clic sobre la herramienta "Comprobación
+                    de errores", el programa le mostrará el informe de errores. Realizar las respectivas correcciones.
+                </p>
+            </li>
+        </ol>
+        <button class="register-btn">Registrar Datos</button>
+        <button class="register-btn">Ir a inventario</button>
+        <button class="register-btn">Ir a histórico</button>
+        <button class="register-btn">Registrar cambio</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
